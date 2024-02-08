@@ -1,0 +1,73 @@
+/* for body */
+body{
+    background-color: rgb(177, 173, 203);
+    text-align: center;
+    margin-top: 100px;
+}
+/* for header */
+.header{
+    color: aqua;
+}
+/* for button */
+.btn i{
+    font-size: 35px;
+    padding: 3px;
+    color: wheat;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 13px;
+    margin: 40px 15px;
+    color: white;
+    cursor: pointer;
+}
+/* for rock */
+.rock{
+    background-color: red;
+}
+/* for paper */
+.paper{
+    background-color: green;
+}
+/* for scissors */
+.scissors{
+    background-color: blue;
+}
+/* for button active */
+button:active{
+    opacity: 0.6;
+    font-size: small;
+}
+/* for winlosetie btn */
+.winlosetie button{
+    width: 100px;
+    height: 30px;
+}
+/* for win */
+.win{
+    background-color: brown;
+    cursor: default;
+}
+/* for lose */
+.lose{
+    background-color: chocolate;
+    cursor: default;
+}
+/* for tie */
+.draw{
+    background-color: darkgray;
+    cursor: default;
+}
+/* for human */
+.human{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.computer{
+    font-size:20px;
+}
+.hidden{
+    display: none;
+}

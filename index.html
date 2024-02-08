@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper and Scissors</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>Rock Paper and Scissors</h1>
+    </header>
+    <div class="btn">
+        <button class="rock" onclick="play('rock')">
+            <i class="fa-solid fa-hand-back-fist"></i>
+            ROCK
+        </button>
+        <button class="paper" onclick="play('paper')">
+            <i class="fa-solid fa-hand"></i>
+            PAPER
+        </button>
+        <button class="scissors" onclick="play('scissors')">
+            <i class="fa-solid fa-hand-scissors"></i>
+            SCISSORS
+        </button>
+    </div>
+    <div class="output">
+        <div class="human">
+        </div>
+        <div class="computer">
+        </div>
+    </div>
+    <div class="winlosetie">
+        <button class="win hidden">You Win!</button>
+        <button class="lose hidden">You Lose!</button>
+        <button class="draw hidden">It's tie!</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
